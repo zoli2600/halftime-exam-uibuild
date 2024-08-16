@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #C0EBF9;
+    align-items: center;
+}
+
+#root:first-child {
+    font-weight: bold;
+    font-size: 24px;
+    color: #467745;
+}
+
+#root:nth-child(2){
+font-weight: 500px;
+font-size: 16px;
+max-width: 600px;
+height: 64px;
+}
+
+#root:nth-child(3){
+font-weight: 400px;
+font-size: 16px;
+max-width: 600px;
+}
+
+
+
